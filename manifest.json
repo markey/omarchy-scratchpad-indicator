@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mark.scratchpad",
+  "name": "Scratchpad Indicator",
+  "version": "1.0.0",
+  "author": "Mark",
+  "license": "MIT",
+  "description": "Shows when Omarchy's scratchpad contains windows and toggles it on click",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Scratchpad Indicator",
+    "description": "Active-only scratchpad status and toggle",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
